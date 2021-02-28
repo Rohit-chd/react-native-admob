@@ -4,7 +4,7 @@ on:
     - cron: 0 12 * * 1
   pull_request:
     branches:
-      - master
+      - development
 jobs:
   integrate:
     name: Create React Native App and integrate React Native Admob
